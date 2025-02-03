@@ -24,7 +24,13 @@ const Dashboard = () => {
         
         {/* Dashboard Content */}
         <main className="p-6">
-          <h1 id="h1" className="text-6xl justify-center items-center text-yellow-300 md:text-3xl sm:text-2xl  font-semibold">Admin-Dashboard</h1>
+        <h1
+  id="h1"
+  className=" lg:text-6xl md:text-4xl sm:text-3xl text-yellow-300 font-sans font-bold"
+>
+  Admin-Dashboard
+</h1>
+
           <h2 className="text-2xl text-purple-500 font-bold  p-3 mt-2 font-sans">Furniro Market Place Builder </h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Example Cards */}
