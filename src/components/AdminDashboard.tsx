@@ -26,7 +26,7 @@ const Dashboard = () => {
         <main className="p-6">
         <h1
   id="h1"
-  className=" text-6xl text-yellow-300 font-sans font-bold "
+  className=" lg:text-5xl md:text-4xl sm:text-3xl text-yellow-300 font-sans font-bold "
 >
   Admin-Dashboard
 </h1>
